@@ -1,0 +1,12 @@
+# Ignore test files and directories
+test_files/
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
+# Ignore Python bytecode
+__pycache__
+*.py[cod]
+# Ignore local environment files
+.env
+# Ignore logs
+*.log
