@@ -1,78 +1,139 @@
 # 📂 Smart File Organizer
 
-A Python automation project that organizes files into categorized folders based on their extensions.
+A Python automation project that automatically organizes files into categorized folders based on their extensions.
+
+---
 
 ## ✨ Features
 
-- 📄 Organizes files automatically
-- 🖼️ Supports Images, Documents, Videos, Music, Archives, and Others
-- 📁 Creates folders automatically
-- 🔄 Handles duplicate filenames
-- 🛡️ Cross-platform using `os.path`
-- 🚀 Clean and modular Python code
+- 📁 Automatically organizes files into folders
+- 🖼️ Supports Images, Documents, Videos, Music, Archives, Text Files, and Others
+- 📂 Creates folders automatically if they don't exist
+- 🔄 Handles duplicate filenames safely
+- 📝 Logs every file movement
+- ↩️ Undo organization using `undo.py`
+- 🛡️ Cross-platform using Python's built-in libraries
+
+---
 
 ## 🛠 Technologies Used
 
 - Python 3
 - os
 - shutil
+- logging
 
-## Folder Categories
+---
 
-| Extension | Folder |
-|-----------|---------|
+## 📁 Project Structure
+
+```text
+Smart-File-Organizer/
+│
+├── organizer.py
+├── undo.py
+├── config.py
+├── utils.py
+├── logger.py
+├── organizer.log
+├── README.md
+├── requirements.txt
+├── .gitignore
+├── LICENSE
+└── screenshots/
+```
+
+---
+
+## 🚀 Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/Shivanshbajaj1/Smart-File-Organizer.git
+```
+
+Go inside the folder
+
+```bash
+cd Smart-File-Organizer
+```
+
+---
+
+## ▶️ Usage
+
+### Organize Files
+
+```bash
+python organizer.py
+```
+
+Enter the folder path when prompted.
+
+---
+
+### Undo Organization
+
+```bash
+python undo.py
+```
+
+This restores files to their original locations using the generated log file.
+
+---
+
+## 📸 Screenshots
+
+### Before
+
+(Add screenshot here)
+
+### After
+
+(Add screenshot here)
+
+---
+
+## 📋 Supported File Types
+
+| Extension | Category |
+|-----------|----------|
 | .txt | TextFiles |
 | .pdf | Documents |
 | .docx | Documents |
 | .jpg | Images |
-| .png | Images |
 | .jpeg | Images |
+| .png | Images |
 | .mp4 | Videos |
 | .mkv | Videos |
 | .mp3 | Music |
 | .zip | Archives |
 
-## Project Structure
+---
 
-```text
-Smart-File-Organizer/
-│── organizer.py
-│── config.py
-│── README.md
-│── requirements.txt
-│── LICENSE
-```
+## 📌 Future Improvements
 
-## How to Run
+- Command-line arguments
+- Progress bar
+- Colored terminal output
+- JSON configuration
+- GUI version
+- Recursive folder organization
+- Unit testing
 
-```bash
-git clone https://github.com/YOUR_USERNAME/Smart-File-Organizer.git
+---
 
-cd Smart-File-Organizer
-
-python organizer.py
-```
-
-## Sample Output
-
-```
-Moved photo.jpg -> Images
-Moved resume.pdf -> Documents
-Moved song.mp3 -> Music
-Moved movie.mp4 -> Videos
-```
-
-## Future Improvements
-
-- Logging
-- GUI Version
-- Undo Feature
-- Recursive Folder Support
-- Drag & Drop Support
-
-## Author
+## 👨‍💻 Author
 
 **Shivansh Bajaj**
 
 GitHub: https://github.com/Shivanshbajaj1
-# Smart-File-Organizer
+
+LinkedIn: https://www.linkedin.com/in/shivansh-bajaj-a433b7371/
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License.
