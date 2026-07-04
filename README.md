@@ -1,6 +1,10 @@
-![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Python](https://img.shields.io/badge/Python-3.13-blue)
+
 ![License](https://img.shields.io/badge/License-MIT-green)
-![Status](https://img.shields.io/badge/Project-Completed-brightgreen)
+
+![Status](https://img.shields.io/badge/Status-Completed-success)
+
+![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey)
 
 # 📂 Smart File Organizer
 
