@@ -1,3 +1,7 @@
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Status](https://img.shields.io/badge/Project-Completed-brightgreen)
+
 # 📂 Smart File Organizer
 
 A Python automation project that automatically organizes files into categorized folders based on their extensions.
