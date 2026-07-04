@@ -86,17 +86,11 @@ python undo.py
 This restores files to their original locations using the generated log file.
 
 ---
-
 ## 📸 Screenshots
 
-### Before
-
-"C:\Users\Shivansh\Smart-File-Organizer\screenshots\BEFORE.png"
-
-### After
-
-"C:\Users\Shivansh\Smart-File-Organizer\screenshots\ARRANGED.png"
----
+| Before | After |
+|---------|-------|
+| ![Before](screenshots/BEFORE.png) | ![After](screenshots/ARRANGED.png) |
 
 ## 📋 Supported File Types
 
