@@ -91,12 +91,11 @@ This restores files to their original locations using the generated log file.
 
 ### Before
 
-(Add screenshot here)
+"C:\Users\Shivansh\Smart-File-Organizer\screenshots\BEFORE.png"
 
 ### After
 
-(Add screenshot here)
-
+"C:\Users\Shivansh\Smart-File-Organizer\screenshots\ARRANGED.png"
 ---
 
 ## 📋 Supported File Types
